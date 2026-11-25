@@ -1,0 +1,9 @@
+[project]
+name = "meridian"
+version = "0.1.0"
+
+[project.scripts]
+meridian = "meridian:main"
+
+[tool.setuptools]
+py-modules = ["meridian"]
